@@ -391,8 +391,8 @@
       ]
     },
     "/home/shell/zero-varenx/contracts/VarenSwap.sol": {
-      "lastModificationDate": 1643656991760,
-      "contentHash": "95328e1ef387e65cb71dcefcb8ef3896",
+      "lastModificationDate": 1643657854421,
+      "contentHash": "ad198739501b0b7f8c13c42a081e1825",
       "sourceName": "contracts/VarenSwap.sol",
       "solcConfig": {
         "version": "0.8.6",

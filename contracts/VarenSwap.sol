@@ -189,5 +189,13 @@ contract VarenRouter is ReentrancyGuard {
         balance = IERC20(_token).balanceOf(address(this));
     }
 
+    function computeReserveRequirement(uint256 _in)
+        public
+        pure
+        returns (uint256)
+    {
+        return _in.mul(1e17).div(uint256(1 ether));
+    }
+
     receive() external payable {}
 }
