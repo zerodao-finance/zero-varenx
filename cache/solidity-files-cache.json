@@ -87,54 +87,6 @@
         "IGatewayRegistry"
       ]
     },
-    "/home/shell/zero-varenx/contracts/VarenRouter.sol": {
-      "lastModificationDate": 1643648637578,
-      "contentHash": "84e41cde825ec613758d18ade27d664e",
-      "sourceName": "contracts/VarenRouter.sol",
-      "solcConfig": {
-        "version": "0.8.6",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/security/ReentrancyGuard.sol",
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-        "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
-        "./interfaces/IGatewayRegistry.sol",
-        "@openzeppelin/contracts/utils/Address.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "VarenRouter"
-      ]
-    },
     "/home/shell/zero-varenx/node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol": {
       "lastModificationDate": 1643648679757,
       "contentHash": "92f9448b23a90ea3bb932ee55cc3ccce",
@@ -439,8 +391,8 @@
       ]
     },
     "/home/shell/zero-varenx/contracts/VarenSwap.sol": {
-      "lastModificationDate": 1643654922409,
-      "contentHash": "86b5c574e1ef3ea1a081d5b2f564aacf",
+      "lastModificationDate": 1643657854421,
+      "contentHash": "ad198739501b0b7f8c13c42a081e1825",
       "sourceName": "contracts/VarenSwap.sol",
       "solcConfig": {
         "version": "0.8.6",
@@ -478,7 +430,8 @@
         "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
         "./interfaces/IGatewayRegistry.sol",
         "@openzeppelin/contracts/utils/Address.sol",
-        "./interfaces/IUniswapV2Router02.sol"
+        "./interfaces/IUniswapV2Router02.sol",
+        "@openzeppelin/contracts/utils/math/SafeMath.sol"
       ],
       "versionPragmas": [
         "^0.8.4"
@@ -528,6 +481,48 @@
       "artifacts": [
         "IUniswapV2Router01",
         "IUniswapV2Router02"
+      ]
+    },
+    "/home/shell/zero-varenx/node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol": {
+      "lastModificationDate": 1643648679769,
+      "contentHash": "a6a9d6c1f662e922b82c1ba4d81cdd48",
+      "sourceName": "@openzeppelin/contracts/utils/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
       ]
     }
   }
